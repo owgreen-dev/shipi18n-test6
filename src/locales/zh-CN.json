@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "home": "家",
+    "about": "关于我们",
+    "pricing": "定价",
+    "contact": "接触"
+  },
+  "hero": {
+    "title": "打造令人惊叹的事物",
+    "subtitle": "欢迎回来，{{name}}！",
+    "cta": "免费开始"
+  },
+  "auth": {
+    "login": "登录",
+    "signup": "报名",
+    "logout": "退出登录",
+    "forgotPassword": "忘记密码？"
+  },
+  "common": {
+    "loading": "加载中...",
+    "save": "节省",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑"
+  },
+  "errors": {
+    "notFound": "页面未找到",
+    "serverError": "出问题了",
+    "unauthorized": "请登录以继续"
+  }
+}
