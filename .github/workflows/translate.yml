@@ -1,0 +1,30 @@
+name: Translate Locales
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/locales/en.json'
+  workflow_dispatch:
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Translate to multiple languages
+        uses: Shipi18n/shipi18n-github-action@v1
+        with:
+          api-key: ${{ secrets.SHIPI18N_API_KEY }}
+          source-file: src/locales/en.json
+          target-languages: es,fr,de,ja,zh-CN
+          output-dir: src/locales
+
+      - name: Commit translations
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add src/locales/*.json
+          git diff --staged --quiet || git commit -m "chore: update translations"
+          git push
