@@ -21,5 +21,8 @@ jobs:
         with:
           api-key: ${{ secrets.SHIPI18N_API_KEY }}
           source-file: src/locales/en.json
-          target-languages: es,fr,de,ja,zh-CN
+          target-languages: es,fr,de
           output-dir: src/locales
+          source-language: en
+          incremental: true
+          commit-message: 'chore: auto-translate locales [skip ci]'
