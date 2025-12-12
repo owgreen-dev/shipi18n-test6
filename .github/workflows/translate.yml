@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   translate:
@@ -26,3 +27,5 @@ jobs:
           source-language: en
           incremental: true
           commit-message: 'chore: auto-translate locales [skip ci]'
+          create-pr: true
+          github-token: ${{ secrets.GITHUB_TOKEN }}

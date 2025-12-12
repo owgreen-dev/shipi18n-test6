@@ -28,6 +28,7 @@
   "errors": {
     "notFound": "Page not found",
     "serverError": "Something went wrong",
-    "unauthorized": "Please log in to continue"
+    "unauthorized": "Please log in to continue",
+    "timeout": "Request timed out"
   }
 }
