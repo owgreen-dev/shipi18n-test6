@@ -3,7 +3,8 @@
     "home": "Hogar",
     "about": "Sobre nosotros",
     "pricing": "Precios",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "features": "Características"
   },
   "hero": {
     "title": "Construye algo asombroso",
@@ -21,7 +22,8 @@
     "save": "Ahorrar",
     "cancel": "Cancelar",
     "delete": "Borrar",
-    "edit": "Editar"
+    "edit": "Editar",
+    "submit": "Entregar"
   },
   "errors": {
     "notFound": "Página no encontrada",

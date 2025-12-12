@@ -3,7 +3,8 @@
     "home": "Heim",
     "about": "Über uns",
     "pricing": "Preisgestaltung",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "features": "Merkmale"
   },
   "hero": {
     "title": "Erschaffe etwas Großartiges!",
@@ -21,7 +22,8 @@
     "save": "Speichern",
     "cancel": "Stornieren",
     "delete": "Löschen",
-    "edit": "Bearbeiten"
+    "edit": "Bearbeiten",
+    "submit": "Einreichen"
   },
   "errors": {
     "notFound": "Seite nicht gefunden",

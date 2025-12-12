@@ -3,7 +3,8 @@
     "home": "Maison",
     "about": "À propos de nous",
     "pricing": "Tarification",
-    "contact": "Contact"
+    "contact": "Contact",
+    "features": "Caractéristiques"
   },
   "hero": {
     "title": "Construisez quelque chose d'extraordinaire",
@@ -21,7 +22,8 @@
     "save": "Sauvegarder",
     "cancel": "Annuler",
     "delete": "Supprimer",
-    "edit": "Modifier"
+    "edit": "Modifier",
+    "submit": "Soumettre"
   },
   "errors": {
     "notFound": "Page introuvable",
