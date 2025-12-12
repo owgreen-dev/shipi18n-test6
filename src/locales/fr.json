@@ -28,6 +28,7 @@
   "errors": {
     "notFound": "Page introuvable",
     "serverError": "Quelque chose s'est mal passé",
-    "unauthorized": "Veuillez vous connecter pour continuer"
+    "unauthorized": "Veuillez vous connecter pour continuer",
+    "timeout": "Délai d'attente dépassé"
   }
 }

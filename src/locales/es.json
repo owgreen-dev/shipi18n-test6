@@ -28,6 +28,7 @@
   "errors": {
     "notFound": "Página no encontrada",
     "serverError": "Algo salió mal",
-    "unauthorized": "Por favor, inicia sesión para continuar"
+    "unauthorized": "Por favor, inicia sesión para continuar",
+    "timeout": "Solicitud agotada"
   }
 }
